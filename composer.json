@@ -1,0 +1,33 @@
+{
+    "name": "beowulfenator/yii2-vuejs",
+    "type": "yii2-extension",
+    "description": "VueJS components for Yii2",
+    "keywords": [
+        "yii2",
+        "vue",
+        "vuejs"
+    ],
+    "homepage": "https://github.com/beowulfenator/yii2-vuejs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Konstantin Sirotkin",
+            "email": "beowulfenator@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~5.5|~7.0",
+        "bower-asset/vue": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "beowulfenator\\vuejs\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
+        }
+    }
+}
